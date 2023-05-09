@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Work+Sans:ital,wght@0,200;0,300;1,100;1,200;1,300&display=swap');
+
+body {
+    background-image: radial-gradient(circle, #fae0e0 10%,#d89494);
+    font-family: 'work Sans', Courier, monospace;
+    font-weight: 500;
+    color: rgb(151, 69, 90);
+    border-radius: 5px;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.315);
+}
+nav {
+    background-color: #d8949452;
+    padding: 3px;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(107, 104, 104);
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+main {
+    color: rgb(107, 104, 104);
+    background-color: rgb(255, 253, 253);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.315);
+}
+article > aside {
+    background-color: #fffafa;
+}
+
+h1 {
+    font-family: 'Caveat', Courier, monospace;
+    font-size: 4em;    
+}
+footer {
+    background-color: #c46d6d;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+footer > a:cliqued {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+.titulo2 {
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+mark {
+    background-color: #c78b9354;
+}
+p {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+.imagens {
+    display: block;
+    text-align: center;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.lista1 {
+    display: inline-block;
+    text-align: center;
+}
+.listas {
+text-align: center;
+}
+.artigo2 {
+    background-color: #d8949459;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+.rodape {
+    text-align: center;
+    display: inline-block;
+}
+
+
+

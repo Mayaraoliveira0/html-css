@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        a {
+            color: rgb(207, 23, 115);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: rgb(87, 86, 86);
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: chartreuse;
+        }
+
+        a::backdrop{
+            content: '	➭';
+        }
+
+        a::after {
+            content:  '	➭';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">Canal Youtube</a></li>
+        <li><a href="https://web.whatsapp.com/" target="_blank">Site Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

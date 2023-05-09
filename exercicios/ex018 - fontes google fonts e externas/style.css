@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Vanilla' ;
+    src: url('fontes/VanillaCaramel.otf'); format('opentype')
+    /*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - enbedded-opentype
+    -truetype-aat
+    */
+}
+
+
+
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Vanilla', Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: lighter;
+    font-style: normal;
+    color: chocolate;
+    
+}
